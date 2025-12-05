@@ -1,0 +1,91 @@
+/*estilo css*/
+body{
+    background-color: rgb(19, 0, 55);
+}
+.header img{
+text-align:right;
+text-align: left;
+
+
+}
+/* barra de navegacion*/
+    nav ul{ 
+        list-style: none;
+        background-color: rgb(176, 136, 142) ;
+        margin: 0%;
+        padding: 1%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+}
+nav ul li a{
+    color: rgb(169, 93, 93);
+    text-decoration: none;
+    font-weight: bold;
+}
+/* configurar los vehiculos de arriba */
+.rubor{
+    background-color: rgb(94, 79, 100);
+border: 1px solid rgb(199, 118, 118) ;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 8x rgb(122, 109, 146);
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+.ruborhover{
+    transform: scale(1.03);
+    box-shadow: 0 6x 12px rgb(112, 89, 158);
+}
+.rubor img{
+    width: 100%;
+    height: 100;
+    border-radius: 10px 10px 0;
+}
+.rubor{
+    color: rgb(199, 118, 118);
+    font-size: 1.5srem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rubor p {
+    font-size: 1.2srem;
+    color:rgb(59, 0, 20);
+    text-align: center;
+}
+.galeria{ 
+    padding: 20px;
+    background-color: rgb(199, 118, 118);
+    text-align: center;
+}
+.contenedor-galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.corector img {
+     background-color:rgb(199, 118, 118) ;
+border: 1px solid rgb(59, 0, 20);
+border-radius: 8px;
+box-shadow: 0 2px 5px rgb(59, 0, 20);
+padding:10px;
+width: 100px;
+}
+
+.corrector img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.corrector img
+/* pie de pagina */
+footer{
+    background-color: hotpink;
+    color: mediumpurple;
+    text-align: center;
+padding: 15px;
+}
